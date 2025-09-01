@@ -9,59 +9,78 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f7f9;
+      background: #f4f4f9;
       color: #333;
-      line-height: 1.6;
     }
     header {
       background: #2c3e50;
-      color: #fff;
-      padding: 20px;
+      color: white;
       text-align: center;
+      padding: 30px 20px;
     }
-    header h1 {
-      margin: 0;
+    header img {
+      width: 180px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
     }
     section {
+      padding: 40px 20px;
       max-width: 900px;
       margin: auto;
-      padding: 20px;
     }
     h2 {
       color: #2c3e50;
-      border-bottom: 2px solid #ddd;
+      border-bottom: 2px solid #2c3e50;
+      display: inline-block;
       padding-bottom: 5px;
+      margin-bottom: 20px;
     }
-    ul {
-      list-style: none;
-      padding: 0;
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
     }
-    ul li {
+    .skill {
       background: #ecf0f1;
-      margin: 8px 0;
-      padding: 10px;
-      border-radius: 5px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hello, I am <strong>Sreekumar Harikumar</strong></p>
-    <p>System Administrator | Writer | Creative Thinker</p>
+    <img src="sree 1.jpg" alt="Sreekumar Harikumar">
+    <h1>Sreekumar Harikumar</h1>
+    <p>IT System Administrator | Cloud Enthusiast | Security Learner</p>
   </header>
 
   <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>System Administration (Windows & Linux)</li>
-      <li>Office 365 & Cloud Management</li>
-      <li>Networking & Security</li>
-      <li>IT Infrastructure Support</li>
-      <li>Technical Documentation & Writing</li>
-      <li>Creative Writing & Social Analysis</li>
-    </ul>
+    <h2>About Me</h2>
+    <p>
+      I am an IT professional with strong experience in system administration, 
+      networking, and cloud solutions. Passionate about technology, problem-solving, 
+      and continuous learning.
+    </p>
   </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">Windows Server Administration</div>
+      <div class="skill">Linux System Administration</div>
+      <div class="skill">O365 Administration</div>
+      <div class="skill">Active Directory & Group Policy</div>
+      <div class="skill">Networking & Firewalls</div>
+      <div class="skill">Virtualization (VMware, Hyper-V)</div>
+      <div class="skill">Cloud (Azure, AWS basics)</div>
+      <div class="skill">Backup & Disaster Recovery</div>
+      <div class="skill">IT Security Best Practices</div>
+      <div class="skill">Troubleshooting & Support</div>
+    </div>
+  </section>
+
 </body>
 </html>
-
