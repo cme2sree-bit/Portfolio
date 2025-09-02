@@ -1,103 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sreekumar Harikumar - Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f9;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      text-align: center;
-      padding: 40px;
-      background: #222;
-      color: white;
-    }
-    header img {
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      margin-bottom: 15px;
-      border: 4px solid white;
-    }
-    section {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
-    h2 {
-      color: #444;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li {
-      padding: 5px 0;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sreekumar Harikumar — Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <img src="assets/profile.jpg" alt="Sreekumar Harikumar">
-    <h1>👨‍💻 Sreekumar Harikumar</h1>
-    <p>IT System Administrator | Cloud | Security | Networking</p>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow">
+    <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <img src="profile.jpg" alt="Profile Photo" class="w-20 h-20 rounded-full shadow-lg border-2 border-white object-cover"/>
+        <div>
+          <h1 class="text-3xl font-bold">Sreekumar Harikumar</h1>
+          <p class="text-sm">Alappuzha, Kerala, India</p>
+          <p class="text-sm">📧 cme2sree@gmail.com | 📱 +91-8129444192</p>
+        </div>
+      </div>
+      <div class="flex space-x-4 mt-4 md:mt-0">
+        <a href="https://www.linkedin.com/in/sreekumar-harikumar-a9081844" target="_blank" class="text-white hover:text-gray-200">LinkedIn</a>
+        <a href="https://cme2sree-bit.github.io/Portfolio/" target="_blank" class="text-white hover:text-gray-200">GitHub</a>
+      </div>
+    </div>
   </header>
 
-  ## 🔹 About Me
-I am an **IT System Administrator** with strong expertise in **Cloud Infrastructure, System Administration, and IT Security**.  
-With hands-on experience in **Microsoft Azure, AWS, and Cisco technologies**, I specialize in building, managing, and securing enterprise-grade IT environments.  
+  <main class="container mx-auto px-4 py-10">
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold border-b-2 border-blue-600 pb-2 mb-6">👨‍💻 About Me</h2>
+      <p class="leading-relaxed">
+        I am an experienced IT professional specializing in system administration, network management, and security analysis. 
+        With hands-on expertise in O365, server infrastructure, and IT troubleshooting, I thrive in challenging environments that demand 
+        both technical proficiency and problem-solving skills. Currently, I am seeking opportunities to leverage my expertise in IT systems 
+        for organizational growth and innovation.
+      </p>
+    </section>
 
----
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold border-b-2 border-blue-600 pb-2 mb-6">🛠 Skills</h2>
+      <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 list-disc list-inside">
+        <li>O365 Administration</li>
+        <li>Windows & Linux Server Management</li>
+        <li>Active Directory & Group Policy</li>
+        <li>Network Security & Firewalls</li>
+        <li>Cloud Administration</li>
+        <li>IT Support & Troubleshooting</li>
+      </ul>
+    </section>
 
-## 🛠️ Technical Skills
-- **Cloud Platforms:** Microsoft Azure, AWS  
-- **System Administration:** Windows Server, Active Directory, Microsoft 365, Exchange Online  
-- **Networking:** Cisco Routing & Switching, VPN, LAN/WAN  
-- **Security:** IAM, Security Hardening, Compliance  
-- **Virtualization:** VMware, Hyper-V  
-- **Backup & Recovery:** Disaster Recovery, High Availability  
-- **Monitoring & Automation:** System Center, Log Analytics, PowerShell  
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold border-b-2 border-blue-600 pb-2 mb-6">💼 Experience</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="text-xl font-semibold">Senior System Administrator</h3>
+          <p class="text-sm text-gray-600">Almana Hospitals — Saudi Arabia</p>
+          <ul class="list-disc list-inside mt-2">
+            <li>Managed IT systems, networks, and data security.</li>
+            <li>Provided end-user support for 1000+ employees.</li>
+            <li>Administered O365, virtualization, and backup solutions.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">IT Administrator</h3>
+          <p class="text-sm text-gray-600">Previous Role</p>
+          <ul class="list-disc list-inside mt-2">
+            <li>Handled system upgrades, maintenance, and troubleshooting.</li>
+            <li>Implemented security policies and access controls.</li>
+            <li>Ensured network uptime and system reliability.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
----
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold border-b-2 border-blue-600 pb-2 mb-6">🎓 Education</h2>
+      <p>Bachelor’s Degree in Computer Science — Kerala University</p>
+    </section>
 
-## 📜 Certifications
-- 🏅 **Microsoft Certified: Azure Solutions Architect Expert**  
-  `ID: 031F31-37F5H7`  
-- 🏅 **Microsoft 365 Certified: Fundamentals**  
-  `ID: 6D2551-I54714`  
-- 🏅 **Microsoft Certified: Azure Administrator Associate**  
-  `ID: I518-7062`  
-- 🏅 **AWS Certified: Solutions Architect – Associate**  
-  `ID: X5TCXHZCTJQ1139B`  
-- 🏅 **Microsoft Certified: Windows Server Hybrid Administrator Associate**  
-  `ID: I548-9468`  
-- 🏅 **Cisco Certified: CCNA**  
-  `ID: CSCO14298517`  
+    <section>
+      <h2 class="text-2xl font-semibold border-b-2 border-blue-600 pb-2 mb-6">📬 Contact</h2>
+      <p>If you'd like to get in touch, feel free to email me at <a href="mailto:cme2sree@gmail.com" class="text-blue-600 hover:underline">cme2sree@gmail.com</a>.</p>
+    </section>
+  </main>
 
----
-
-## 💼 Professional Experience
-*(Add details about your past roles here, for example:)*  
-
-**System Administrator – [ATNA TECHNOLOGIES INDIA PVT LTD]**  
-*May 2023 – Present*  
-- Managed and supported **Azure & AWS infrastructure**.  
-- Implemented **Active Directory & M365 services** for 500+ users.  
-- Improved **network performance** by configuring Cisco switches & firewalls.  
-
- 
----
-
-## 📫 Connect With Me
-- 🌐 [GitHub](https://cme2sree-bit.github.io/Portfolio)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/sreekumar-harikumar-a9081844)  
-- 📧 Email: cme2sree@gmail.com
+  <footer class="bg-gray-800 text-white text-center py-4 mt-10">
+    <p>&copy; 2025 Sreekumar Harikumar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
